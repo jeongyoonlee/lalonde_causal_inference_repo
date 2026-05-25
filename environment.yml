@@ -1,0 +1,19 @@
+name: lalonde-ci
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - jupyter
+  - jupyterlab
+  - pip:
+    - dowhy>=0.11
+    - econml>=0.15
+    - xgboost>=2.0
